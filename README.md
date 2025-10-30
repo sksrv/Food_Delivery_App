@@ -1,130 +1,49 @@
-# TOMATO - Food Ordering Website
+# 🍕 Tomato — Food Delivery (Personal Implementation by SKSRV)
 
-This repository hosts the source code for TOMATO, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
+This repository is my **personal implementation and learning version** of the original [Mshandev/Food-Delivery](https://github.com/Mshandev/Food-Delivery) project.  
+I customized and explored it to understand the **MERN (MongoDB, Express, React, Node.js)** stack and how a complete food delivery system works end-to-end.
 
-## Demo
+---
 
-- User Panel: [https://food-delivery-frontend-s2l9.onrender.com/](https://food-delivery-frontend-s2l9.onrender.com/)
-- Admin Panel: [https://food-delivery-admin-wrme.onrender.com/](https://food-delivery-admin-wrme.onrender.com/)
+## 🚀 Overview
+Tomato is a full-featured food ordering web application built using the **MERN stack**, providing both **user** and **admin** panels for smooth, secure online food ordering.  
+It includes authentication, payment integration, and order management functionality.
 
-## Features
+---
 
-- User Panel
-- Admin Panel
-- JWT Authentication
-- Password Hashing with Bcrypt
-- Stripe Payment Integration
-- Login/Signup
-- Logout
-- Add to Cart
-- Place Order
-- Order Management
-- Products Management
-- Filter Food Products
-- Login/Signup
-- Authenticated APIs
-- REST APIs
-- Role-Based Identification
-- Beautiful Alerts
+## 🔧 What I Did
+- Forked and set up the project locally to explore full-stack architecture.
+- Enhanced README documentation for setup and learning clarity.
+- Made minor UI updates and branding changes in the frontend.
+- Deployed test version locally to understand deployment and API integration.
 
-## Screenshots
+---
 
-![Hero](https://i.ibb.co/59cwY75/food-hero.png)
-- Hero Section
+## 🧠 Learning Outcome
+Working on this project helped me:
+- Understand full-stack flow using React, Node, Express, and MongoDB.
+- Implement JWT authentication and API security.
+- Learn about Stripe payment gateway integration.
+- Explore role-based access and REST API structure.
 
-![Products](https://i.ibb.co/JnNQPyQ/food-products.png)
-- Products Section
+---
 
-![Cart](https://i.ibb.co/t2LrQ8p/food-cart.png)
-- Cart Page
+## 💻 Demo (Original Project Links)
+- **User Panel:** [https://food-delivery-frontend-s2l9.onrender.com/](https://food-delivery-frontend-s2l9.onrender.com/)
+- **Admin Panel:** [https://food-delivery-admin-wrme.onrender.com/](https://food-delivery-admin-wrme.onrender.com/)
 
-![Login](https://i.ibb.co/s6PgwkZ/food-login.png)
-- Login Popup
+---
 
-## Run Locally
+## 🧰 Tech Stack
+**Frontend:** React.js, Context API, CSS  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB  
+**Authentication:** JWT  
+**Payments:** Stripe  
 
-Clone the project
+---
 
-```bash
-    git clone https://github.com/Mshandev/Food-Delivery
-```
-Go to the project directory
-
-```bash
-    cd Food-Delivery
-```
-Install dependencies (frontend)
-
-```bash
-    cd frontend
-    npm install
-```
-Install dependencies (admin)
-
-```bash
-    cd admin
-    npm install
-```
-Install dependencies (backend)
-
-```bash
-    cd backend
-    npm install
-```
-Setup Environment Vaiables
-
-```Make .env file in "backend" folder and store environment Variables
-  JWT_SECRET=YOUR_SECRET_TEXT
-  SALT=YOUR_SALT_VALUE
-  MONGO_URL=YOUR_DATABASE_URL
-  STRIPE_SECRET_KEY=YOUR_KEY
- ```
-
-Setup the Frontend and Backend URL
-   - App.jsx in Admin folder
-      const url = YOUR_BACKEND_URL
-     
-  - StoreContext.js in Frontend folder
-      const url = YOUR_BACKEND_URL
-
-  - orderController in Backend folder
-      const frontend_url = YOUR_FRONTEND_URL 
-
-Start the Backend server
-
-```bash
-    nodemon server.js
-```
-
-Start the Frontend server
-
-```bash
-    npm start
-```
-
-Start the Backend server
-
-```bash
-    npm start
-```
-## Tech Stack
-* [React](https://reactjs.org/)
-* [Node.js](https://nodejs.org/en)
-* [Express.js](https://expressjs.com/)
-* [Mongodb](https://www.mongodb.com/)
-* [Stripe](https://stripe.com/)
-* [JWT-Authentication](https://jwt.io/introduction)
-* [Multer](https://www.npmjs.com/package/multer)
-
-## Deployment
-
-The application is deployed on Render.
-
-## Contributing
-
-Contributions are always welcome!
-Just raise an issue, and we will discuss it.
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
+## 🧩 Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sksrv/Food-Delivery
